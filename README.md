@@ -1,0 +1,2 @@
+# web
+Seicoma web page
