@@ -7,6 +7,26 @@
 // Scripts
 //
 
+function sendEmail () {
+
+  Email.send({
+	Host: "smtp.gmail.com",
+	Username : "seicoma.corp@gmail.com",
+	Password : "seicomapolo",
+  //To : 'leopoldo.rodriguez@yahoo.com.mx',
+  //To : 'vladiir.rod96@gmail.com',
+  To : 'vladiir.rod96@gmail.com, leopoldo.rodriguez@yahoo.com.mx',
+  From : document.getElementById('email').value,
+	Subject : "Un nuevo usuario de Seicoma te envia un mensaje",
+  Body : "Nombre: " + document.getElementById('name').value + '\n' + document.getElementById('message').value + "\n Número de teléfono: " + document.getElementById('phone').value + "\n Correo electrónico: " + document.getElementById('email').value
+	}).then(
+		message => alert("mail sent successfully")
+	);
+
+}
+
+// define your own email api which points to your server.
+
 
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -25,9 +45,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    var enviarMensaje = function(){
-      console.log("hola");
-    }
 
     // Shrink the navbar
     navbarShrink();
