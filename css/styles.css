@@ -692,6 +692,21 @@ progress {
   width: 20%;
 }
 
+.featured-img {
+  position: relative;
+  height: 530px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.featured-big {
+  position: relative;
+  weight: 150%;
+  height: 90%;
+  bottom: 0;
+  right: 0;
+}
+
 .row-cols-6 > * {
   flex: 0 0 auto;
   width: 16.6666666667%;
@@ -10946,6 +10961,13 @@ p {
   padding-top: 30px;
   background-color: #ffffff;
 }
+
+.page-section-about {
+  height: 500px;
+  padding-top: 30px;
+  background-color: #ffffff;
+}
+
 .page-section-services h2.section-heading, .page-section-services .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
