@@ -12,7 +12,7 @@ function sendEmail () {
   Email.send({
 	Host: "smtp.gmail.com",
 	Username : "seicoma.corp@gmail.com",
-	Password : "seicomapolo",
+	Password : "Manolo24@",
   //To : 'leopoldo.rodriguez@yahoo.com.mx',
   //To : 'vladiir.rod96@gmail.com',
   To : 'vladiir.rod96@gmail.com, leopoldo.rodriguez@yahoo.com.mx',
@@ -20,7 +20,7 @@ function sendEmail () {
 	Subject : "Un nuevo usuario de Seicoma te envia un mensaje",
   Body : "Nombre: " + document.getElementById('name').value + '\n' + document.getElementById('message').value + "\n Número de teléfono: " + document.getElementById('phone').value + "\n Correo electrónico: " + document.getElementById('email').value
 	}).then(
-		message => alert("mail sent successfully")
+		message => alert("Correo enviado de manera exitosa")
 	);
 
 }
