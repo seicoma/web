@@ -5818,17 +5818,16 @@ textarea.form-control-lg {
 
 .carousel-inner {
   position: relative;
-width: auto;
-padding-left: 10%;
-padding-right: 10%;
-overflow: hidden;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
 }
 
 .carousel-inner-start {
   position: relative;
-width: auto;
-
-overflow: hidden;
+  width: auto;
+  overflow: hidden;
 }
 
 .carousel-inner::after {
