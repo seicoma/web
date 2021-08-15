@@ -5818,7 +5818,7 @@ textarea.form-control-lg {
 
 .carousel-inner {
   position: relative;
-  width: auto;
+  width: inherit;
   margin-left: 10%;
   margin-right: 10%;
   overflow: hidden;
